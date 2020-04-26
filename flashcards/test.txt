@@ -1,0 +1,55 @@
+Wrong answer in test #3
+
+Your line
+`Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):`
+should contain `has been removed` (ignoring case).
+This line should remove the card `Russia`.
+
+Please find below the output of your program during this failed test.
+Note that the '>' character indicates the beginning of the input line.
+
+---
+
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+> hardest card
+There are no cards with errors.
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+> add
+The card:
+> France
+The definition of the card:
+> UpdateMeFromImport
+The pair ("France":"UpdateMeFromImport") has been added.
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+> ask
+How many times to ask?
+> 2
+Print the definition of "France":
+> ??
+Wrong answer. The correct one is "UpdateMeFromImport".
+Print the definition of "France":
+> ??
+Wrong answer. The correct one is "UpdateMeFromImport".
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+> import
+File name:
+> capitals.txt
+2 cards have been loaded.
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+> hardest card
+The hardest cards are "Russia", "France". You have 5 errors answering them.
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+> remove
+The card:
+> France
+The card has been removed.
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+> remove
+The card:
+> Russia
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+> hardest card
+The hardest card is "Russia". You have 5 errors answering it.
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+> exit
+Bye bye!
